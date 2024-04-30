@@ -1,0 +1,6 @@
+True Positives:  [ 9.  8. 16. 26. 45.  0.]
+False Positives:  [ 0. 33. 12.  0.  0.  0.]
+False Negatives:  [ 5.  0.  7. 31.  2.  0.]
+True Negatives:  [135. 108. 114.  92. 102. 149.]
+Precision:  [1.         0.19512195 0.57142857 1.         1.                nan]
+Recall:  [0.64285714 1.         0.69565217 0.45614035 0.95744681        nan]

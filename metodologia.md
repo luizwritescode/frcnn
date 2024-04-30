@@ -36,3 +36,44 @@ Originalmente, o banco de dados continha anotações de classes que não são in
 
 	- Após a reclassificação e omissão de classes as imagens que ficaram com arquivos de texto correspondentes vazios podem ser consideradas sem defeitos e vão ser reanotadas uma por uma utilizando o aplicativo.
 
+
+
+- Configuração de treino
+
+	- Tamanho da imagem:
+
+	- Tamanho dos anchors
+
+	- Fator de escala do anchors
+
+	- Normalização (Zero-center by mean pixel)
+
+		- Calculando Channel mean pixel
+
+
+- Segundo Treino 
+	
+	- O modelo foi retreinado usando tamanho de imagem original (640px) para tentar melhorar o posicionamento das caixas. 
+
+		Resultados: melhora significativa no posicionamento, mas o modelo tem acurácia levemente reduzida
+
+Modificações pendentes:
+
+- Introduzir nova métrica de posicionamento das ancoras
+
+	IoU (inferencia/gt) / IoU (gt/inferencia)
+
+- Introduzir nova estratégia de normalização
+
+	Zero-based mean pixel [-144,144] -> [0,1]
+ 
+- Terceiro Treino
+	
+	- Implementar Resnet como nova rede backbone
+
+
+- Quarto Treino
+
+	- Transformada de Fourier, cada imagem vira N analises na frequencia dependendo do numero de fases
+
+
