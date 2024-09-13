@@ -1,0 +1,10 @@
+Average IoU of correct predictions per class:  [0.9438679506082965, 0.6330789870839151, 0.6417886470669181, 0.9594883582897477, 0.9660231296735853]
+Average IoU of correct predictions:  0.8288494145444926
+Average GIoU of correct predictions per class:  [-0.05612895141724431, -0.36672074628894474, -0.3579609099758267, -0.040508435753097934, -0.03397369992487052]
+Average GIoU of correct predictions:  -0.17105854867199685
+True Positives:  [ 9. 30. 16. 25. 45.  0.]
+False Positives:  [ 0. 11. 12.  1.  0.  0.]
+False Negatives:  [ 0. 10.  2.  9.  3.  0.]
+True Negatives:  [140.  98. 119. 114. 101. 149.]
+Precision:  [1.         0.73170732 0.57142857 0.96153846 1.                nan]
+Recall:  [1.         0.75       0.88888889 0.73529412 0.9375            nan]

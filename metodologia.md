@@ -63,6 +63,8 @@ Modificações pendentes:
 
 	IoU (inferencia/gt) / IoU (gt/inferencia)
 
+	Generalized IoU
+
 - Introduzir nova estratégia de normalização
 
 	Zero-based mean pixel [-144,144] -> [0,1]
@@ -71,9 +73,11 @@ Modificações pendentes:
 	
 	- Implementar Resnet como nova rede backbone
 
+Entender mAP@k Mean Average Precision
+
+
+Relátorio comparando métricas VGG e Resnet
 
 - Quarto Treino
 
 	- Transformada de Fourier, cada imagem vira N analises na frequencia dependendo do numero de fases
-
-

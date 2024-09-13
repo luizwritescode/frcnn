@@ -1,3 +1,7 @@
+Average IoU of correct predictions per class:  [0.931776276632223, 0.6167524562491719, 0.678596689713025, 0.9602288352113101, 0.9606342528613708]
+Average IoU of correct predictions:  0.8295977021334202
+Average GIoU of correct predictions per class:  [-0.0682206544042248, -0.3830693247557058, -0.32115073010834067, -0.03976796426292514, -0.03936255271244031]
+Average GIoU of correct predictions:  -0.17031424524872735
 True Positives:  [ 9. 35. 16. 25. 44.  0.]
 False Positives:  [ 0.  6. 12.  1.  1.  0.]
 False Negatives:  [0. 8. 1. 8. 3. 0.]
