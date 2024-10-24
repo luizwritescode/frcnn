@@ -24,7 +24,7 @@ Originalmente, o banco de dados continha anotações de classes que não são in
 
 	1 polished -> 	omitida
 
-	5 scratch -> 	retirada
+	5 scratch -> 	retirada (adcionada como defeito extra)
 	6 strain -> 	retirada
 
 	**4 sem defeito** -> adicionada
@@ -81,3 +81,26 @@ Relátorio comparando métricas VGG e Resnet
 - Quarto Treino
 
 	- Transformada de Fourier, cada imagem vira N analises na frequencia dependendo do numero de fases
+
+
+## Fase de Testes
+
+usando o aplicativo de anotações foram selecionadas 30 das 110 imagens de testes de forma balanceada
+
+as 30 imagens foram manualmente ajustadas para balancear ainda mais o banco
+
+contagem de anotações verdade banco teste 30 imagens:
+
+
+unpolished: 9
+crack: 12
+burr: 8
+pit': 10 
+no_defect: 8
+
+são feitas todas as inferencias e as mesmas são combinadas com a melhor caixa verdade que tenha um IoU acima do threshold de 0.5
+
+
+
+## Metricas
+
